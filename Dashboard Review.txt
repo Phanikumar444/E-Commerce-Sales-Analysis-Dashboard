@@ -1,0 +1,417 @@
+E-COMMERCE SALES PERFORMANCE ANALYSIS DASHBOARD
+
+
+1. PROJECT OBJECTIVE
+
+The objective of this project was to analyze e-commerce sales data, identify key business trends, evaluate product and customer performance, understand profitability, and build an interactive Excel dashboard for business decision-making.
+
+
+2. DATASET INFORMATION
+
+Dataset Name:
+E-Commerce Sales Dataset
+
+Data Period:
+01-01-2020 to 12-30-2024
+
+Total Records:
+1050 Orders
+
+Key Columns Used:
+
+- Order ID
+- Order Date
+- Customer Name
+- Region
+- Category
+- Product Name
+- Sales
+- Quantity
+- Profit
+- Payment Method
+- Segment
+
+
+3. TOOLS USED
+
+Microsoft Excel
+
+Skills Used:
+
+- Data Cleaning
+- Data Transformation
+- Feature Engineering
+- Pivot Tables
+- Pivot Charts
+- Slicers
+- Dashboard Development
+
+
+4. DATA PREPARATION
+
+Data Cleaning:
+
+- Checked missing values
+- Removed duplicate records
+- Verified data types
+- Standardized data formats
+
+
+Feature Engineering:
+
+Created additional columns:
+
+1. Order Year
+
+Purpose:
+Year-wise sales analysis
+
+Formula:
+=YEAR(Order_Date)
+
+
+2. Order Month
+
+Purpose:
+Monthly sales trend analysis
+
+Formula:
+=TEXT(Order_Date,"mmmm")
+
+
+3. Profit Margin
+
+Purpose:
+Measure profitability
+
+Formula:
+=Profit/Sales
+
+
+4. Order Size
+
+Categories:
+
+- Small
+- Medium
+- Large
+
+
+5. KPI ANALYSIS
+
+Business Performance Overview:
+
+Total Sales:
+₹12,99,184.10
+
+Total Profit:
+₹1,52,783.30
+
+Total Orders:
+1050
+
+Total Quantity Sold:
+3054
+
+Average Order Value:
+₹1,237.32
+
+Overall Profit Margin:
+11.57%
+
+
+6. ANALYSIS PERFORMED
+
+
+1. REGIONAL SALES ANALYSIS
+
+Business Question:
+Which region generates the highest revenue?
+
+Finding:
+
+Central region generated the highest sales.
+
+Sales:
+₹3,86,682.70
+
+
+2. CATEGORY PROFIT ANALYSIS
+
+Business Question:
+Which category generates the highest profit?
+
+Finding:
+
+Furniture was the most profitable category.
+
+Profit:
+₹80,616.29
+
+
+3. MONTHLY SALES TREND ANALYSIS
+
+Business Question:
+When are customers purchasing the most?
+
+Finding:
+
+October recorded the highest sales.
+
+Sales:
+₹1,45,740.45
+
+
+4. PRODUCT PERFORMANCE ANALYSIS
+
+Business Question:
+Which products drive revenue?
+
+Finding:
+
+Top Revenue Product:
+
+Saatva Classic Mattress
+
+Sales:
+₹83,733
+
+
+5. CUSTOMER ANALYSIS
+
+Business Question:
+Who are the highest-value customers?
+
+Finding:
+
+Top Customer:
+
+Lakshmi Ramirez
+
+Sales:
+₹20,179.10
+
+
+6. SALES VS PROFIT ANALYSIS
+
+Business Question:
+Are high sales categories generating high profit?
+
+Finding:
+
+Furniture generated the highest sales and profit.
+
+
+7. DASHBOARD FEATURES CREATED
+
+
+KPI Cards:
+
+- Total Sales
+- Total Profit
+- Total Orders
+- Total Quantity Sold
+- Average Order Value
+- Profit Margin
+- Sales Growth
+
+
+Charts Created:
+
+1. Sales by Region
+
+2. Profit by Category
+
+3. Monthly Sales Trend
+
+4. Top 10 Products by Sales
+
+5. Top 10 Customers by Revenue
+
+6. Sales vs Profit Comparison
+
+
+Interactive Filters:
+
+Slicers Added:
+
+- Year
+- Region
+- Category
+- Payment Method
+
+
+8. KEY BUSINESS INSIGHTS
+
+
+1. The business generated total revenue of ₹12.99 Lakhs with a profit of ₹1.52 Lakhs.
+
+2. Central region generated the highest sales contribution.
+
+3. Furniture category performed best in both sales and profit.
+
+4. October was the highest-performing sales month.
+
+5. 2024 achieved the highest sales growth of 32.37%.
+
+6. Clothing category has lower profitability compared to other categories.
+
+7. High-value customers contribute significantly to overall revenue.
+
+
+9. BUSINESS RECOMMENDATIONS
+
+
+1. Increase marketing focus on high-performing regions.
+
+2. Promote profitable categories like Furniture and Electronics.
+
+3. Analyze pricing and discount strategies for Clothing products.
+
+4. Create loyalty programs for high-value customers.
+
+5. Use seasonal sales trends for inventory planning.
+
+6. Increase average order value through bundles and offers.
+
+
+10. PROJECT OUTCOME
+
+
+Successfully created an interactive Excel dashboard that transforms raw e-commerce data into meaningful business insights.
+
+The dashboard helps stakeholders understand:
+
+- Revenue performance
+- Profitability
+- Customer behavior
+- Product performance
+- Regional trends
+
+and supports data-driven business decisions.
+
+
+
+
+
+
+
+
+Project Title:
+
+E-Commerce Sales Performance Analysis Dashboard
+
+Introduction:
+
+"I worked on an E-Commerce Sales Analysis project using Microsoft Excel. The objective of this project was to analyze sales data, identify key business trends, understand customer and product performance, and create an interactive dashboard to support business decision-making."
+
+Dataset Explanation:
+
+"The dataset contained 1050 order records covering the period from 2020 to 2024. It included information such as order details, customer information, product categories, sales, quantity, profit, region, and payment methods."
+
+Data Cleaning Process:
+
+"First, I performed data cleaning by checking for missing values, removing duplicates, verifying data types, and standardizing the data format."
+
+"After cleaning, I created additional calculated columns such as:
+
+Order Year
+Order Month
+Profit Margin
+Order Size
+
+These columns helped in performing deeper analysis."
+
+Analysis Performed:
+
+"I performed different analyses using Pivot Tables and Pivot Charts."
+
+1. Sales Performance Analysis
+
+"I analyzed overall business performance using KPIs."
+
+Key metrics:
+
+Total Sales: ₹12.99 Lakhs
+Total Profit: ₹1.52 Lakhs
+Total Orders: 1050
+Profit Margin: 11.57%
+2. Regional Analysis
+
+"I analyzed sales performance across different regions."
+
+"The Central region generated the highest revenue compared to other regions."
+
+3. Category Analysis
+
+"I analyzed sales and profit contribution by category."
+
+"Furniture was the best-performing category because it generated the highest sales as well as profit."
+
+4. Product Analysis
+
+"I identified the top-performing products based on revenue."
+
+"The highest revenue-generating product was Saatva Classic Mattress."
+
+5. Customer Analysis
+
+"I performed customer-level analysis to identify high-value customers."
+
+"The top customers were identified based on total sales contribution."
+
+6. Trend Analysis
+
+"I analyzed monthly sales trends to identify seasonal patterns."
+
+"October recorded the highest sales, which can help in future inventory and marketing planning."
+
+Dashboard Development:
+
+"After completing the analysis, I created an interactive Excel dashboard."
+
+"The dashboard contains:
+
+KPI cards
+Sales charts
+Profit analysis
+Customer analysis
+Product analysis
+Trend analysis"
+
+"I also added slicers for:
+
+Year
+Region
+Category
+Payment Method
+
+so users can dynamically filter and explore the data."
+
+Key Insights:
+
+"From the analysis, I found that:
+
+Central region was the highest revenue contributor.
+Furniture category generated the highest profit.
+October was the strongest sales month.
+2024 achieved the highest sales performance.
+Clothing category had lower profitability compared to other categories."
+Business Recommendations:
+
+"Based on the insights, I recommended:
+
+Focusing marketing efforts on high-performing regions.
+Promoting profitable categories.
+Improving Clothing category profitability through pricing and discount analysis.
+Creating loyalty strategies for high-value customers.
+Planning inventory based on seasonal demand."
+Closing Statement:
+
+"This project helped me understand the complete analytics workflow, starting from raw data cleaning, transformation, analysis, visualization, and finally presenting business insights through an interactive dashboard."
+
+Short Version (If Interviewer Asks: "Tell me about your project")
+
+You can say:
+
+"I created an E-Commerce Sales Performance Dashboard using Excel. I cleaned and transformed the sales data, created KPIs, analyzed sales by region, category, products, and customers using Pivot Tables, and built an interactive dashboard using Pivot Charts and Slicers. The main insights were that Central region and Furniture category were the strongest performers, while Clothing required improvement. The dashboard helps stakeholders quickly understand business performance and make data-driven decisions."
